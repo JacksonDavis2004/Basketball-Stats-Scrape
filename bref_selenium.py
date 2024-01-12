@@ -33,7 +33,7 @@ team_codes = [
     'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS'
 ]
 
-# Testing for just one team (takes too long to test all)
+# Testing for just one team
 team_code = 'ATL' 
 season = '2024'
 drtg, pace = scrape_team_stats(team_code, season)
